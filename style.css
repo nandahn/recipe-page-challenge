@@ -47,6 +47,7 @@ body{
     border-radius: 15px;
 }
 
+/* Estilizando: Banner */
 .img-omelette{
     max-width: 100%;
     border-radius: 15px;
@@ -66,7 +67,9 @@ body{
     margin-top: 15px;
     font-weight: 400;
 }
+/* Fim */
 
+/* Estilizando: Preparation Time */
 .preparation{
     display: flex;
     flex-direction: column;
@@ -97,3 +100,39 @@ body{
 .item-list-1::marker{
     color: var(--Dark-Raspberry);
 }
+
+/* Fim */
+
+/* Estilizando: Ingredients */
+
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.title-3{
+    font-size: 30px;
+    font-family: Young-Serif;
+    color: var(--Nutmeg);
+    font-weight: lighter;
+}
+
+.list-2{
+    list-style-position: inside;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.item-list-2{
+    color: var(--Wenge-Brown);
+}
+.item-list-2::marker{
+    color: var(--Nutmeg)
+}
+
+/* Fim */
