@@ -1,0 +1,37 @@
+/* Importando as fontes de dentro do projeto */
+@font-face {
+    font-family: Young Serif;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+/* variaveis de cores */
+
+:root{
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+}
+.container{
+    max-height:1440px;
+    max-width:520px;
+    margin : 20px auto;
+}
+
+img{
+    max-width: 100%;
+}
+
